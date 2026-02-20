@@ -1,11 +1,12 @@
 {
-	"name": "Deploy",
-	"description": "Wa Bot.",
+	"name": "ZAHID-KING-BOT",
+	"description": "Zahid King Multi-Device WhatsApp Bot.",
 	"keywords": [
 		"whatsapp",
-		"bot"
+		"bot",
+		"zahid-king"
 	],
-	"repository": "https://github.com/raganork-ind/whatsapp-bot",
+	"repository": "https://github.com/Your-GitHub-Username/Your-Repo-Name",
 	"stack": "container",
     "env": { 
         "HANDLERS": {
@@ -41,7 +42,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"ZAHID-KING;MD-BOT"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -51,17 +52,17 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"ZAHID-KING"
         },
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"Raganork,SKL11,91123456789,https://i.imgur.com/B2YWSLk.jpg"
+            "value":"ZAHID-KING,ZAHID,923044154575,https://i.imgur.com/P7ziVhr.jpeg"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
+            "value":"ZAHID-KING;MD-BOT;https://i.imgur.com/P7ziVhr.jpeg"
         },
         "MODE": {
             "description": "Private or public",
@@ -71,12 +72,12 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"923044154575"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
-            "value":"{pp} Active since {uptime}\n User:{sender}"
+            "value":"*I am ZAHID-KING MD*\n\n{pp} Active since {uptime}\n User:{sender}"
         },
        "SESSION": {
             "description": "Your MD session",
@@ -93,4 +94,4 @@
       {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
       }]
-  }
+}
